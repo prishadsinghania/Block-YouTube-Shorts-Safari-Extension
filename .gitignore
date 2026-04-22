@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Xcode user/local artifacts
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+DerivedData/
+
+# Generated Safari converter project (local wrapper)
+Short-Form Video Blocker/

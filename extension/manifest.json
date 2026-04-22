@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Short-Form Video Blocker",
+  "version": "0.1.0",
+  "description": "Blocks YouTube Shorts, TikTok, Instagram Reels, and Google short-video results.",
+  "permissions": [
+    "*://www.youtube.com/*",
+    "*://www.tiktok.com/*",
+    "*://m.tiktok.com/*",
+    "*://www.instagram.com/*",
+    "*://www.facebook.com/*",
+    "*://m.facebook.com/*",
+    "*://www.snapchat.com/*",
+    "*://www.pinterest.com/*",
+    "*://www.google.com/*",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*",
+        "*://www.tiktok.com/*",
+        "*://m.tiktok.com/*",
+        "*://www.instagram.com/*",
+        "*://www.facebook.com/*",
+        "*://m.facebook.com/*",
+        "*://www.snapchat.com/*",
+        "*://www.pinterest.com/*",
+        "*://www.google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

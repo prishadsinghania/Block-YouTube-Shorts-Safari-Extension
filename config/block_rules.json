@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "sites": {
+    "youtube": {
+      "hosts": [
+        "www.youtube.com"
+      ],
+      "block_path_prefixes": [
+        "/shorts/"
+      ],
+      "hide_css_selectors": [
+        "a[href^='/shorts/']",
+        "ytd-reel-item-renderer",
+        "ytd-reel-shelf-renderer",
+        "ytd-rich-shelf-renderer[is-shorts]"
+      ]
+    },
+    "tiktok": {
+      "hosts": [
+        "www.tiktok.com",
+        "m.tiktok.com"
+      ],
+      "block_strategy": "overlay",
+      "overlay_message": "TikTok is blocked by Short-Form Video Blocker."
+    },
+    "instagram": {
+      "hosts": [
+        "www.instagram.com"
+      ],
+      "block_path_prefixes": [
+        "/reels/",
+        "/reel/"
+      ],
+      "block_strategy": "redirect_and_hide",
+      "overlay_message": "Instagram Reels is blocked by Short-Form Video Blocker."
+    },
+    "facebook": {
+      "hosts": [
+        "www.facebook.com",
+        "m.facebook.com"
+      ],
+      "block_path_prefixes": [
+        "/reel/",
+        "/watch/"
+      ],
+      "block_strategy": "redirect_and_hide",
+      "overlay_message": "Facebook Reels/Watch is blocked by Short-Form Video Blocker."
+    },
+    "snapchat": {
+      "hosts": [
+        "www.snapchat.com"
+      ],
+      "block_path_prefixes": [
+        "/spotlight"
+      ],
+      "block_strategy": "redirect",
+      "overlay_message": "Snapchat Spotlight is blocked by Short-Form Video Blocker."
+    },
+    "pinterest": {
+      "hosts": [
+        "www.pinterest.com"
+      ],
+      "block_path_prefixes": [
+        "/ideas/"
+      ],
+      "block_strategy": "redirect",
+      "overlay_message": "Pinterest Ideas is blocked by Short-Form Video Blocker."
+    }
+  }
+}
