@@ -2,9 +2,11 @@
 
 Safari extension to reduce short-form doomscrolling across web platforms.
 
-![Demo screenshot](images/1.png)
-![Demo screenshot](images/2.png)
-![Demo screenshot](images/3.png)
+<p align="center">
+  <img src="images/1.png" alt="Screenshot 1" width="32%" />
+  <img src="images/2.png" alt="Screenshot 2" width="32%" />
+  <img src="images/3.png" alt="Screenshot 3" width="32%" />
+</p>
 
 ## What it blocks
 
