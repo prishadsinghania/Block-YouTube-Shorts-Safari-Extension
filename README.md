@@ -13,7 +13,7 @@ Safari extension to reduce short-form doomscrolling across web platforms.
 - Google `Short videos` modules and short-video viewers
 
 When blocked, pages show a halt message:
-`Get back to work. No more doomscrolling.❤️`
+`Get back to work. No more doomscrolling.❤️` for that extra motivation, we all need sometimes
 
 ## Tech stack
 
