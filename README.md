@@ -2,6 +2,10 @@
 
 Safari extension to reduce short-form doomscrolling across web platforms.
 
+![Demo screenshot](images/1.png)
+![Demo screenshot](images/2.png)
+![Demo screenshot](images/3.png)
+
 ## What it blocks
 
 - YouTube Shorts
