@@ -21,7 +21,7 @@ Safari extension to reduce short-form doomscrolling across web platforms.
 When blocked, pages show a halt message:
 `Get back to work. No more doomscrolling.❤️` for that extra motivation, we all need sometimes
 
-![Demo screenshot](images/4.png)
+![Demo screenshot](images/4.jpeg)
 
 ## Tech stack
 
